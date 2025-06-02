@@ -56,6 +56,16 @@
             <artifactId>jna-platform</artifactId>
             <version>5.13.0</version> <!-- 使用最新版本 -->
         </dependency>
+        <dependency>
+            <groupId>com.melloware</groupId>
+            <artifactId>jintellitype</artifactId>
+            <version>1.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>2.1.214</version>
+        </dependency>
     </dependencies>
 
 
@@ -78,7 +88,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version> <!-- 使用最新版本 -->
                 <configuration>
-                    <mainClass>com.fengxue.Main</mainClass> <!-- 替换为你的主类 -->
+                    <mainClass>com.fengxue.NoteUI</mainClass> <!-- 替换为你的主类 -->
                     <!-- 可选，用于指定生成的JRE镜像名称 -->
                     <jlinkImageName>my-javafx-app</jlinkImageName>
                 </configuration>

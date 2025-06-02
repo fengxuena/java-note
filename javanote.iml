@@ -24,5 +24,7 @@
     <orderEntry type="library" name="Maven: com.dustinredmond.fxtrayicon:FXTrayIcon:3.0.0" level="project" />
     <orderEntry type="library" name="Maven: net.java.dev.jna:jna:5.13.0" level="project" />
     <orderEntry type="library" name="Maven: net.java.dev.jna:jna-platform:5.13.0" level="project" />
+    <orderEntry type="library" name="Maven: com.melloware:jintellitype:1.4.1" level="project" />
+    <orderEntry type="library" name="Maven: com.h2database:h2:2.1.214" level="project" />
   </component>
 </module>
